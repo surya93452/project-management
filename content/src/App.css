@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F0F0; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the entire app */
+.task-management {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F0F0F0; /* Light gray background */
+  padding: 20px;
+}
+
+/* Left section styles */
+.left-section {
+  width: 70%;
+  padding: 20px;
+  background-color: #FFFFFF; /* White background */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: #0f21ed;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin: 0;
+}
+
+.task-due-date,
+.task-assignee {
+  font-size: 14px;
+  color: #777777; /* Gray text */
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.create-task {
+  margin: 20px 0;
+  background-color: #FFFFFF; /* White background */
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #CCCCCC; /* Light gray border */
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #007BFF; /* Blue button background */
+  color: #FFFFFF; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Assigned and Completed Tasks styles */
+.task-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.completed-task-list {
+  margin-top: 20px;
+}
+
+/* Right section styles */
+.right-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #FFFFFF; /* White background */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.chat-messages {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #E5E5E5; /* Light gray border */
+  padding: 10px;
+  background-color: #FFFFFF; /* White background */
+}
+
+.chat-message {
+  padding: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.chat-input select,
+.chat-input input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #CCCCCC; /* Light gray border */
+  border-radius: 5px;
+}
+
+.chat-input input[type="text"] {
+  height: 40px;
+}
+
+.chat-input button {
+  background-color: #2b2d42; /* Dark blue button background */
+  color: #FFFFFF; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Styling for the select your name dropdown */
+#writerName {
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black text */
+  border: 1px solid #CCCCCC; /* Light gray border */
+}
